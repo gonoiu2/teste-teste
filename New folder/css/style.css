@@ -1,0 +1,53 @@
+body {
+    
+
+    background: DarkRed ; 
+    background: -webkit-linear-gradient(DarkRed , black); 
+    background: -o-linear-gradient(DarkRed , black); 
+    background: -moz-linear-gradient(DarkRed , black); 
+    background: linear-gradient(DarkRed , black); 
+
+}
+
+
+
+.text {
+    width: auto;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 150px;
+	background: #fff2cc;
+    background-image: url("/images/tree-of-death.jpg");
+}
+
+.poza {
+   width: 90px;
+    height: 90px;
+    float: left;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.litera {
+    margin-left: 18px;
+    position: absolute;
+    font-size: 570%;
+    color: #fff;
+    background-image: url(images/tree-of-death.jpg);
+}
+
+.clearfix:after {
+   content: " "
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;   
+}
+
+
+.up {
+     text-transform: uppercase;
+     font-size: smaller;
+}
